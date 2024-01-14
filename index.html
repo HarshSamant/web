@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('your-image-url.jpg') center/cover no-repeat; /* Replace 'your-image-url.jpg' with your image URL */
+            color: white;
+            overflow: hidden; 
+        }
+
+        .navbar {
+          background-color: black;
+            padding: 25px;
+            text-align: center;
+            color: red;
+            font-size: 15px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            display: inline-block;
+        }
+
+        .search-container {
+            display: inline-block;
+            margin-left: 30px;
+        }
+
+        .search-input {
+            padding: 5px;
+            border: none;
+            font-size: 5px;
+        }
+
+        .search-icon {
+            color: white;
+            font-size: 9px;
+           
+            
+        }
+        .nav{
+          text-align: center;
+          background-color: #A03232;
+          padding: 2px;
+          font-size: 20px;
+        }
+       .box-image{
+background-color: red;
+       }
+       
+       .box-image img {
+        padding-left: 20%;
+          width: 60%;
+        
+         
+        }
+        .content-box {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            transform: translateY(-50%);
+            padding: 20px;
+            max-width: 30%;
+            color: white;
+            font-size: 10px;
+            border: 0px solid white;
+            padding-left: 20%;
+        }
+        .main-box {
+            background-color: rgb(215, 215, 226); /* Background color for the main box */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .inner-box {
+            background-color:gray; /* Transparent white background for inner box */
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 80%;
+            margin: 0 auto; /* Center the inner box */
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .image-container .image-wrapper {
+            max-width: 20%; /* Adjust the width of each image */
+           
+           display: flex;
+           /* Space between images and captions */
+             /* Border around each image */
+            
+        }
+
+        .image-container img {
+            width: 100%;
+            /* Optional: adds a rounded border to the image */
+        }
+        
+        
+        .shoes{
+          text-align: left;
+        }
+        .outer-box2 {
+            background-color: gray;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .inner-box2 {
+            background-color: #A03232 ;
+            padding: 15px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .content-left {
+            flex: 1;
+        }
+
+        .circle-image {
+            width: 40%;
+            height: ;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+        }
+
+        .circle-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: 3px solid white; /* White border around the circle */
+        }
+
+        .circle-image:hover {
+            transform: scale(1.1);
+            margin-left: 10px; /* Example change in position on hover */
+        }
+        .inner-box2{
+
+        }
+         
+        
+    </style>
+</head>
+<body>
+<div class="nav">
+        <p><b>Free Shipping for all orders now </b> </p>
+</div>
+        <div class = "navbar">
+        <a href="#Men">Men</a>
+        <a href="#Women">Women</a>
+        <a href="#kids">Kids</a>
+        <a href="#Sports">Sports</a>
+        <a href="#Brands">Sports</a>
+        <a href="#Collction">Collection</a>
+        <div class="search-container">
+            <input type="text" class="search-input">
+            <span class="search-icon">&#128269;</span>
+           </div> 
+        </div>
+  
+            <div class="box-image">
+                <img src="https://c4.wallpaperflare.com/wallpaper/632/653/239/advertising-logo-nike-poster-wallpaper-preview.jpg" alt="Your Image Description"> <!-- Replace 'your-image-url.jpg' with your image URL -->
+                <div class="content-box">
+                    <h2><b>SHOES, CLOTHING & </b> <br> ACCESSORIES SALE: UP <br>TO 60% OFF</h2>
+                    <h4>Remake your look for less. Whether you're an <br>avid athlete or seeking a fresh streetwear vibe,<br> you'll find the best gear at the adidas clothing and <br>shoes sale. Save up to 60% off iconic adidas<br> styles like NMD, Stan Smith, and Originals.</h4>
+                </div>
+            </div>
+            <div class="main-box">
+              <div class="inner-box">
+         <div class="shoes">        
+      <h1>Trending </h1>
+  
+      </div>
+                  <div class="image-container">
+                    <div class="image-wrapper">
+                      <img src="https://tse3.mm.bing.net/th?id=OIP.5x8nyaFachIXulhErz4aogHaEc&pid=Api&P=0&h=180" alt="Image 1"> <!-- Replace 'image1.jpg' with your image URL -->
+                      
+                      <img src="https://tse2.mm.bing.net/th?id=OIP.jnd1xqvSjwL9E_s5UOvcFwHaEd&pid=Api&P=0&h=180" alt="Image 2"> <!-- Replace 'image2.jpg' with your image URL -->
+                      <img src="https://tse3.mm.bing.net/th?id=OIP.k0WZt7iaVXf9dpU8mV5hbAHaFM&pid=Api&P=0&h=180" alt="Image 3"> <!-- Replace 'image3.jpg' with your image URL -->
+                    </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="outer-box2">
+            
+            <div class="inner-box2">
+               
+                <div class="content-left">
+                    <h1>How did Air<br> Jordan start?</h1>
+                    <p>The first Air Jordan shoe was<br> produced for basketball player <br>Michael Jordan during his time <br>with the Chicago Bulls in late<br> 1984 and released to the public <br>on April 1, 1985. The shoes<br> were designed for Nike by<br> Peter Moore, Tinker Hatfield,<br> and Bruce Kilgore.</p>
+<br>
+<br>
+<p>Lorem ipsum Lorem ipsum<br> dolor sit amet consectetur <br>adipisicing elit. Rem, dolore.</p>
+                    
+                </div>
+    
+                <div class="circle-image">
+                    <!-- Image inside a circle -->
+                    <img src="https://e1.pxfuel.com/desktop-wallpaper/553/12/desktop-wallpaper-impressive-white-jordan-shoes-red-simple-decoration-red-jordan-thumbnail.jpg">
+            </div>
+        </div>
+
+        
+        
+     
+
+</body>
+</html>
